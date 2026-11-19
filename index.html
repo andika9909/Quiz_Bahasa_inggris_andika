@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Bahasa Inggris SD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="menu">
+        <div class="judul">📚 Kuis Inggris SD</div>
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#kuis">Mulai Kuis</a></li>
+            <li><a href="#info">Tentang</a></li>
+        </ul>
+        <button id="tombolMode"></button>
+    </nav>
+
+    <section id="beranda" class="bagian">
+        <div class="kotak">
+            <img src="image/01 gennaio 2019__https___www_instagram.com_p_BsFwE5vl2Tg__igsh=ZnMxN3YzNWIwM2U0" alt="Belajar Bahasa Inggris" class="gambar">
+            <h1>Selamat Datang Anak Hebat! 🎉</h1>
+            <p>Ayo belajar Bahasa Inggris dengan bermain kuis! Ada 50 soal yang seru untuk dikerjakan.</p>
+            <button id="mulai" class="tombol utama">Mulai Kuis 🚀</button>
+        </div>
+    </section>
+
+    <section id="kuis" class="bagian">
+        <div class="kotak">
+            <h2>Soal Kuis</h2>
+            <div class="info-skor">
+                <p>Skor: <span id="skor">0</span> / 50</p>
+                <p>Soal: <span id="nomor">1</span>/50</p>
+            </div>
+
+            <div id="wadahSoal" class="kotak-soal">
+                <h3 id="teksSoal"></h3>
+                <div id="pilihanJawaban"></div>
+                <button id="lanjut" class="tombol" style="display:none;">Berikutnya →</button>
+            </div>
+
+            <div id="hasil" class="kotak-hasil" style="display:none;">
+                <h2>🎉 Kuis Selesai!</h2>
+                <p>Skor Kamu: <span id="skorAkhir"></span> dari 50</p>
+                <p id="pesan"></p>
+                <button id="ulangi" class="tombol utama">Kerjakan Lagi 🔄</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="info" class="bagian">
+        <div class="kotak">
+            <h2>Tentang Kuis Ini</h2>
+            <p>Kuis ini dibuat untuk membantu teman-teman SD belajar Bahasa Inggris dengan cara yang menyenangkan.</p>
+            <p><strong>Fitur Kuis:</strong></p>
+            <ul>
+                <li>✅ 50 Soal Pilihan Ganda (3 Pilihan Jawaban)</li>
+                <li>✅ Skor Dihitung Otomatis</li>
+                <li>✅ Bisa dimainkan di HP & Komputer</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Kuis Bahasa Inggris SD — Semangat Belajarnya! 💪</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
